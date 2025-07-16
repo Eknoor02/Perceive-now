@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for dark mode palette */
+.dark body {
+  background-color: #3F1470; /* Perceive Now Purple */
+  color: #F8F8F8; /* Light text for dark background */
+}
+
+.dark .bg-card-dark {
+  background-color: #2A0F49; /* Darker purple for card backgrounds */
+}
+
+.dark .text-gold {
+  color: #FFA301; /* Perceive Now Gold */
+}
+
+/* Base styles for scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the tracking area */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* color of the scroll thumb */
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-track {
+  background: #2a0f49; /* Darker purple */
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #5c2f82; /* Muted purple */
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #7a4bb0; /* Lighter muted purple on hover */
+}
