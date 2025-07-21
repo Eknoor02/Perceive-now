@@ -39,3 +39,46 @@ This is a full-stack prototype designed to reflect Perceive Now's vision of deci
 cd server
 npm install
 node server.js
+
+Runs on: http://localhost:5000
+
+🎨 Frontend (React)
+cd client
+npm install
+npm start
+Runs on: http://localhost:3000
+
+🔌 API Endpoints
+GET /reports
+Returns list of synthetic reports:
+
+json
+
+[
+  {
+    "id": "1",
+    "title": "Market Trends",
+    "confidenceScore": 87,
+    ...
+  }
+]
+POST /feedback
+Accepts:
+
+json
+
+{
+  "reportId": "1",
+  "userComment": "Great report!",
+  "flaggedSection": "Summary"
+}
+✨ Features in Action
+🔍 Filter by industry, confidenceScore, reportType
+
+📄 Slide panel shows summary, confidence meter, sources
+
+🎯 Animated confidence progress bar
+
+🧾 Feedback form (connected to backend)
+
+🌓 Dark mode toggle (#3F1470, #FFA301)
