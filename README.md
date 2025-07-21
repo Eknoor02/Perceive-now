@@ -26,9 +26,9 @@ This is a full-stack prototype designed to reflect Perceive Now's vision of deci
 
 ## 🖥️ Live Demo & Video
 
-- **Frontend**: [🔗 Vercel Link](https://your-frontend-link.vercel.app)
-- **Backend**: [🔗 Render Link](https://your-backend-link.onrender.com)
-- **Loom Walkthrough**: [🎥 Watch the Demo](https://www.loom.com/share/your-video-link)
+- **Frontend**: [🔗 Vercel Link]([https://your-frontend-link.vercel.app)](https://perceive-now-eight.vercel.app/)
+- **Backend**: [🔗 Render Link][(https://your-backend-link.onrender.com)](https://perceive-now.onrender.com)
+- **Loom Walkthrough**: [🎥 Watch the Demo][(https://www.loom.com/share/your-video-link)](https://www.loom.com/share/c362352f26cc4ad49d83e1ccab6c15cc?sid=029e6870-ec8e-42f7-9ae3-f3870bfd5d88)
 
 ---
 
